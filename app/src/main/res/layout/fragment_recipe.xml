@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8E9">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌾 Feed Recipe"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recommended Feed Mix"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tvRecipeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Details Here"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"
+            android:layout_marginTop="24dp"
+            android:background="#E8F5E9"
+            android:padding="12dp"/>
+
+        <TextView
+            android:id="@+id/tvIngredient1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌽 Maize: 2kg"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protein: 9% | Energy: 3300 kcal/kg"
+            android:textSize="12sp"
+            android:textColor="#666666"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvIngredient2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🥜 Cottonseed Cake: 1kg"
+            android:textSize="16sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protein: 41% | Energy: 2800 kcal/kg"
+            android:textSize="12sp"
+            android:textColor="#666666"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvCostInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Cost: ₹45"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#F57C00"
+            android:layout_marginTop="24dp"
+            android:background="#FFF3E0"
+            android:padding="12dp"/>
+
+        <Button
+            android:id="@+id/btnSaveRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Save Recipe"
+            android:textSize="18sp"
+            android:backgroundTint="#2E7D32"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

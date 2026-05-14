@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.pashuaahar.ui.home.HomeFragment"
+        android:label="Home"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.pashuaahar.ui.profile.ProfileFragment"
+        android:label="Profile"/>
+
+    <fragment
+        android:id="@+id/recipeFragment"
+        android:name="com.example.pashuaahar.ui.recipe.RecipeFragment"
+        android:label="Recipe"/>
+
+    <fragment
+        android:id="@+id/costFragment"
+        android:name="com.example.pashuaahar.ui.cost.CostFragment"
+        android:label="Cost"/>
+
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.example.pashuaahar.ui.tips.TipsFragment"
+        android:label="Tips"/>
+
+</navigation>

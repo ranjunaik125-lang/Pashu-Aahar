@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F1F8E9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost Tracker"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#1B5E20"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Daily Cost Section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Daily Cost Comparison"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1565C0"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Home-made Cost Box -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home-made Feed"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"/>
+
+        <TextView
+            android:id="@+id/txtHomemadeCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily: Rs. 500"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly: Rs. 15,000"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+    <!-- Market Price Box -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Market Feed"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#F57C00"/>
+
+        <TextView
+            android:id="@+id/txtMarketCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily: Rs. 800"
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly: Rs. 24,000"
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+    <!-- Savings Box -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#C8E6C9"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Savings"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1B5E20"/>
+
+        <TextView
+            android:id="@+id/txtDailySavings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Savings: Rs. 300"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txtMonthlySavings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monthly Savings: Rs. 9,000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="3dp"/>
+
+        <TextView
+            android:id="@+id/txtYearlySavings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yearly Savings: Rs. 1,08,000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginTop="3dp"/>
+
+    </LinearLayout>
+
+    <!-- Cost Breakdown -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cost Breakdown (Home-made)"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#1565C0"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/txtBreakdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Maize: Rs. 200/day\nCottonseed Cake: Rs. 250/day\nMineral Mix: Rs. 30/day\nSalt: Rs. 20/day"
+                android:textSize="14sp"
+                android:textColor="#333333"
+                android:lineSpacingExtra="8dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

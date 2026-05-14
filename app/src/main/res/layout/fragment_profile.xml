@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F1F8E9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🐄 Cow Profile"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Cow Details"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breed:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerBreed"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age (years):"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/etAge"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter age"
+        android:inputType="number"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="12dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight (kg):"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/etWeight"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter weight"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="12dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Milk Yield (liters/day):"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"/>
+
+    <EditText
+        android:id="@+id/etMilkYield"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter milk yield"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="12dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <Button
+        android:id="@+id/btnCalculateRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Calculate Recipe"
+        android:textSize="18sp"
+        android:backgroundTint="#2E7D32"
+        android:layout_marginTop="32dp"/>
+
+</LinearLayout>
