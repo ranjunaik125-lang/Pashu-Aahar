@@ -1,3 +1,3 @@
 ## Download APK
 
-[Download APK](apk/app-debug.apk)
+[Download APK](apk/pashu Aahar.apk)
